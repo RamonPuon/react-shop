@@ -1,0 +1,18 @@
+@use "./vars";
+
+.ProductList{
+    /*Crear columnas*/
+    display: grid;
+    /*repeat(numero de columnas, tamaño)*/
+    grid-template-columns: repeat(auto-fill,240px);
+    /*Espacio entre cartas*/
+    gap: 26px;
+    place-content: center;
+    margin: 3em 0 0 0;
+}
+
+@media(max-width: 640px){
+    .ProductList{
+        grid-template-columns: repeat(auto-fill,140px);
+    }
+}
