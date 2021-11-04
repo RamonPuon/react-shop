@@ -15,7 +15,7 @@
   ],
   "author": "Ramon Puon <ramon.puon@gmail.com>",
   "license": "MIT",
-  "homepage": "https://ramonpuon.github.io/React-Eshop",
+  "homepage": "https://ramonpuon.github.io/react-shop",
   "dependencies": {
     "@babel/core": "^7.15.8",
     "@babel/plugin-transform-runtime": "^7.15.8",
